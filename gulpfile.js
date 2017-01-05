@@ -85,7 +85,7 @@ gulp.task('styles:vendor', () => {
 // html
 gulp.task('html', () => {
   return gulp.src('src/**/*.html')
-    .pipe(gulp.dest('public'))
+    .pipe(gulp.dest('./'))
     .pipe(livereload());
 });
 
