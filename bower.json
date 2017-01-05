@@ -1,0 +1,21 @@
+{
+ "name": "portfolio",
+ "description": "",
+ "main": "app.js",
+ "authors": [
+   "michael grandison <michael.grandison@gmail.com>"
+ ],
+ "license": "ISC",
+ "homepage": "",
+ "dependencies": {
+   "angular": "^1.5.9",
+   "angular-resource": "^1.5.9",
+   "angular-ui-router": "^0.3.2"
+ },
+ "devDependencies": {
+   "bootstrap": "v4.0.0-alpha.5"
+ },
+ "resolutions": {
+   "angular": "^1.5.9"
+ }
+}
