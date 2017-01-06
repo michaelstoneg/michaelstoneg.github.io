@@ -1,0 +1,50 @@
+body {
+  &.contact {
+    .submenu {
+      display: none;
+    }
+    .container {
+      width: 82%;
+    }
+  }
+}
+
+.avatar {
+  border: 3px solid black;
+  height: 10%;
+  width: 20%;
+  background-color: yellow;
+  display: inline-block;
+}
+
+.stats {
+  border: 3px solid blue;
+  height: 10%;
+  width: 79%;
+  display: inline-block;
+}
+
+.menu {
+  border: 3px solid red;
+  width: 17%;
+  height: 100%;
+  display: inline-block;
+  float: left;
+
+}
+
+.container {
+  border: 3px solid green;
+  height: 100%;
+  width: 60%;
+  display: inline-block;
+  float: left;
+}
+
+.submenu {
+  border: 3px solid orange;
+  height: 100%;
+  width: 22%;
+  display: inline-block;
+  float: left;
+}

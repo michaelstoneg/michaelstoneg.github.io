@@ -2,25 +2,38 @@
 <html ng-app="portfolio">
   <head>
     <meta charset="utf-8">
-    <title>Final Project</title>
+    <title>fortpolio</title>
     <link href="https://fonts.googleapis.com/css?family=Cardo:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="/css/vendor.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <script src="/js/vendor.js" charset="utf-8"></script>
-    <script src="/js/app.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="public/css/vendor.css">
+    <link rel="stylesheet" href="public/css/style.css">
+    <script src="public/js/vendor.js" charset="utf-8"></script>
+    <script src="public/js/app.js" charset="utf-8"></script>
     <!-- <script src="/js/controllers/main.js" charset="utf-8"></script> -->
   </head>
 
-  <body ng-controller="MainController as main">
+  <body ng-controller="MainController as main" ng-class="main.stateName">
 
     <header>
+      <div class="avatar">avatar</div>
+      <div class="stats">stats and so forth</div>
     </header>
+    <div class="menu">
+      <ul>
+        <li><a ng-click="main.aboutGo()" href="#">About</a></li>
+        <li><a ng-click="main.contact()" href="#">Contact</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Experience</a></li>
+        <li><a href="#">Projects</a></li>
+      </ul>
+    </div>
 
+    <div class="submenu"  ui-view="left">
+      left
+    </div>
 
-    <main class="container" ui-view>
+    <main class="container" ui-view="right">
+      right
     </main>
-    <p>
-      what what who
-    </p>
+
   </body>
 </html>
