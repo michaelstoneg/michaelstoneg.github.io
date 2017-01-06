@@ -30,12 +30,41 @@ function MainController($state, $rootScope) {
 
   function contact () {
     console.log('to the about contact page');
-
     $state.go('contact');
+  }
+
+  function skills () {
+    console.log('to the about contact page');
+    $state.go('skills');
+  }
+
+  function skillsTech () {
+    console.log('to the about contact page');
+    $state.go('skillsTech');
+  }
+
+  function skillsTeach () {
+    console.log('to the about contact page');
+    $state.go('skillsTeach');
+  }
+
+  function skillsHosp () {
+    console.log('to the about contact page');
+    $state.go('skillsHosp');
+  }
+
+  function experience () {
+    console.log('to the experience page');
+    $state.go('experience');
   }
 
   main.aboutGo = aboutGo;
   main.aboutLife = aboutLife;
   main.aboutWork = aboutWork;
   main.contact = contact;
+  main.skills = skills;
+  main.skillsTech = skillsTech;
+  main.skillsTeach = skillsTeach;
+  main.skillsHosp = skillsHosp;
+  main.experience = experience;
 }
