@@ -13,27 +13,29 @@
 
   <body ng-controller="MainController as main" ng-class="main.stateName">
 
-    <header>
-      <div class="avatar">avatar</div>
-      <div class="stats">stats and so forth</div>
-    </header>
-    <div class="menu">
-      <ul>
-        <li><a ng-click="main.aboutGo()" href="#">About</a></li>
-        <li><a ng-click="main.contact()" href="#">Contact</a></li>
-        <li><a ng-click="main.skills()" href="#">Skills</a></li>
-        <li><a ng-click="main.experience()" href="#">Experience</a></li>
-        <li><a href="#">Projects</a></li>
-      </ul>
-    </div>
+    <div class="frame">
+      <header>
+        <div class="avatar">avatar</div>
+        <div class="stats">stats and so forth</div>
+      </header>
+      <div class="menu">
+        <ul>
+          <li><a ui-sref="about" href="#">About</a></li>
+          <li><a ui-sref="contact" href="#">Contact</a></li>
+          <li><a ui-sref="skills" href="#">Skills</a></li>
+          <li><a ui-sref="experience" href="#">Experience</a></li>
+          <li><a ui-sref="projects" href="#">Projects</a></li>
+        </ul>
+      </div>
 
-    <div class="submenu"  ui-view="left">
-      left
-    </div>
+      <div class="submenu"  ui-view="left">
+        left
+      </div>
 
-    <main class="container" ui-view="right">
-      right
-    </main>
+      <main class="display" ui-view="right">
+        right
+      </main>
+    </div>
 
   </body>
 </html>

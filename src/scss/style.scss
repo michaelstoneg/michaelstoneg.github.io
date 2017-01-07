@@ -3,7 +3,7 @@ body {
     .submenu {
       display: none;
     }
-    .container {
+    .display {
       width: 82%;
     }
   }
@@ -11,7 +11,7 @@ body {
 
 .avatar {
   border: 3px solid black;
-  height: 10%;
+  height: 30%;
   width: 20%;
   background-color: yellow;
   display: inline-block;
@@ -19,7 +19,7 @@ body {
 
 .stats {
   border: 3px solid blue;
-  height: 10%;
+  height: 20%;
   width: 79%;
   display: inline-block;
 }
@@ -27,15 +27,15 @@ body {
 .menu {
   border: 3px solid red;
   width: 17%;
-  height: 100%;
+  height: 80%;
   display: inline-block;
   float: left;
 
 }
 
-.container {
+.display {
   border: 3px solid green;
-  height: 100%;
+  height: 80%;
   width: 60%;
   display: inline-block;
   float: left;
@@ -43,8 +43,14 @@ body {
 
 .submenu {
   border: 3px solid orange;
-  height: 100%;
+  height: 80%;
   width: 22%;
   display: inline-block;
   float: left;
+}
+
+.frame {
+  height: 500px;
+  width: 800px;
+  margin: 10% 20% 10% 20%;
 }

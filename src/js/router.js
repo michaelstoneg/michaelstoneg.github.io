@@ -30,12 +30,12 @@ function Router($stateProvider, $urlRouterProvider) {
     .state( 'aboutWork', {
       views: {
         'left': {
-          url: '/about',
+          url: '/aboutWork',
           templateUrl: '/templates/about/aboutType.html',
           controller: 'MainController as main'
         },
         'right': {
-          url: '/about',
+          url: '/aboutWork',
           templateUrl: '/templates/about/aboutWork.html',
           controller: 'MainController as main'
         }
@@ -81,12 +81,12 @@ function Router($stateProvider, $urlRouterProvider) {
     .state( 'skillsTech', {
       views: {
         'left': {
-          url: '/skills',
+          url: '/techSkills',
           templateUrl: '/templates/skills/skillsType.html',
           controller: 'MainController as main'
         },
         'right': {
-          url: '/skills',
+          url: '/techSkills',
           templateUrl: '/templates/skills/skillsTech.html',
           controller: 'MainController as main'
         }
@@ -95,12 +95,12 @@ function Router($stateProvider, $urlRouterProvider) {
     .state( 'skillsTeach', {
       views: {
         'left': {
-          url: '/skills',
+          url: '/teachingSkills',
           templateUrl: '/templates/skills/skillsType.html',
           controller: 'MainController as main'
         },
         'right': {
-          url: '/skills',
+          url: '/teachingSkills',
           templateUrl: '/templates/skills/skillsTeach.html',
           controller: 'MainController as main'
         }
@@ -109,12 +109,12 @@ function Router($stateProvider, $urlRouterProvider) {
     .state( 'skillsHosp', {
       views: {
         'left': {
-          url: '/skills',
+          url: '/hospitalityskills',
           templateUrl: '/templates/skills/skillsType.html',
           controller: 'MainController as main'
         },
         'right': {
-          url: '/skills',
+          url: '/hospitalityskills',
           templateUrl: '/templates/skills/skillsHosp.html',
           controller: 'MainController as main'
         }
@@ -137,28 +137,97 @@ function Router($stateProvider, $urlRouterProvider) {
     .state( 'experience1', {
       views: {
         'left': {
-          url: '/experience',
+          url: '/experience1',
           templateUrl: '/templates/exp/experienceType.html',
           controller: 'MainController as main'
         },
         'right': {
-          url: '/experience',
+          url: '/experience1',
           templateUrl: '/templates/exp/experience1.html',
           controller: 'MainController as main'
         }
       }
     })
-
     .state( 'experience2', {
       views: {
         'left': {
-          url: '/experience',
+          url: '/experience2',
           templateUrl: '/templates/exp/experienceType.html',
           controller: 'MainController as main'
         },
         'right': {
-          url: '/experience',
+          url: '/experience2',
           templateUrl: '/templates/exp/experience2.html',
+          controller: 'MainController as main'
+        }
+      }
+    })
+    .state( 'projects', {
+      views: {
+        'left': {
+          url: '/projects',
+          templateUrl: '/templates/projects/projectsType.html',
+          controller: 'MainController as main'
+        },
+        'right': {
+          url: '/projects',
+          templateUrl: '/templates/projects/projects.html',
+          controller: 'MainController as main'
+        }
+      }
+    })
+    .state( 'project1', {
+      views: {
+        'left': {
+          url: '/projectGridOfFire',
+          templateUrl: '/templates/projects/projectType.html',
+          controller: 'MainController as main'
+        },
+        'right': {
+          url: '/projectGridOfFire',
+          templateUrl: '/templates/projects/project1.html',
+          controller: 'MainController as main'
+        }
+      }
+    })
+    .state( 'project2', {
+      views: {
+        'left': {
+          url: '/projectTimeTravlrz',
+          templateUrl: '/templates/projects/projectType.html',
+          controller: 'MainController as main'
+        },
+        'right': {
+          url: '/projectTimeTravlrz',
+          templateUrl: '/templates/projects/project2.html',
+          controller: 'MainController as main'
+        }
+      }
+    })
+    .state( 'project3', {
+      views: {
+        'left': {
+          url: '/projectAlign',
+          templateUrl: '/templates/projects/projectType.html',
+          controller: 'MainController as main'
+        },
+        'right': {
+          url: '/projectAlign',
+          templateUrl: '/templates/projects/project3.html',
+          controller: 'MainController as main'
+        }
+      }
+    })
+    .state( 'project4', {
+      views: {
+        'left': {
+          url: '/projectEphemeralia',
+          templateUrl: '/templates/projects/projectType.html',
+          controller: 'MainController as main'
+        },
+        'right': {
+          url: '/projectEphemeralia',
+          templateUrl: '/templates/projects/project4.html',
           controller: 'MainController as main'
         }
       }
