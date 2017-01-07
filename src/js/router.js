@@ -166,7 +166,7 @@ function Router($stateProvider, $urlRouterProvider) {
       views: {
         'left': {
           url: '/projects',
-          templateUrl: '/templates/projects/projectsType.html',
+          templateUrl: '/templates/projects/projectType.html',
           controller: 'MainController as main'
         },
         'right': {
