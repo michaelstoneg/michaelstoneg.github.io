@@ -9,19 +9,30 @@ body {
   }
 }
 
+header{
+  height: 25%;
+}
+
 .avatar {
   border: 3px solid black;
-  height: 30%;
-  width: 20%;
+  height: 100%;
+  width: 17%;
   background-color: yellow;
   display: inline-block;
+  vertical-align: top;
 }
 
 .stats {
   border: 3px solid blue;
-  height: 20%;
-  width: 79%;
+  height: 100%;
+  width: 82%;
   display: inline-block;
+  padding: 4%;
+}
+
+.statList {
+  columns: 3;
+
 }
 
 .menu {
@@ -44,7 +55,7 @@ body {
 .submenu {
   border: 3px solid orange;
   height: 80%;
-  width: 22%;
+  width: 22.5%;
   display: inline-block;
   float: left;
 }
