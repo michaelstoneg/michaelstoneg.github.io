@@ -8,6 +8,7 @@ function MainController($state, $rootScope) {
 
   function secureState(e, toState, toParams) {
     main.stateName = toState.name;
+    console.log(main.stateName);
   }
 
   $rootScope.$on('$stateChangeStart', secureState);
