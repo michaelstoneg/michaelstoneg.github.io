@@ -162,6 +162,62 @@ function Router($stateProvider, $urlRouterProvider) {
         }
       }
     })
+    .state( 'experience3', {
+      views: {
+        'left': {
+          url: '/experience3',
+          templateUrl: '/templates/exp/experienceType.html',
+          controller: 'MainController as main'
+        },
+        'right': {
+          url: '/experience3',
+          templateUrl: '/templates/exp/experience3.html',
+          controller: 'MainController as main'
+        }
+      }
+    })
+    .state( 'experience4', {
+      views: {
+        'left': {
+          url: '/experience4',
+          templateUrl: '/templates/exp/experienceType.html',
+          controller: 'MainController as main'
+        },
+        'right': {
+          url: '/experience4',
+          templateUrl: '/templates/exp/experience4.html',
+          controller: 'MainController as main'
+        }
+      }
+    })
+    .state( 'experience5', {
+      views: {
+        'left': {
+          url: '/experience5',
+          templateUrl: '/templates/exp/experienceType.html',
+          controller: 'MainController as main'
+        },
+        'right': {
+          url: '/experience5',
+          templateUrl: '/templates/exp/experience5.html',
+          controller: 'MainController as main'
+        }
+      }
+    })
+    .state( 'experience6', {
+      views: {
+        'left': {
+          url: '/experience6',
+          templateUrl: '/templates/exp/experienceType.html',
+          controller: 'MainController as main'
+        },
+        'right': {
+          url: '/experience6',
+          templateUrl: '/templates/exp/experience6.html',
+          controller: 'MainController as main'
+        }
+      }
+    })
     .state( 'projects', {
       views: {
         'left': {
@@ -233,5 +289,5 @@ function Router($stateProvider, $urlRouterProvider) {
       }
     })
     ;
-  $urlRouterProvider.otherwise('/welcome');
+  // $urlRouterProvider.otherwise('/welcome');
 }
