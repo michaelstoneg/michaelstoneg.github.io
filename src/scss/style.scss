@@ -287,6 +287,23 @@ span {
   }
 }
 
+.experienceLogos {
+  width: 75px;
+  height: 75px;
+}
+
+.projectFrame {
+  border: 3px solid white;
+  border-radius: 10px;
+  height: 125%;
+  width: 100%;
+  margin: 10% 0%;
+  display: inline-block;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
 
 //external links//
 
@@ -305,15 +322,12 @@ span {
   }
 }
 
-.contactIcons, .projectLinks {
+.contactIcons, .projectLinks, .techIcons {
   width: 52px;
   height: 39px;
 }
 
-.experienceLogos {
-  width: 75px;
-  height: 75px;
-}
+
 
 
 /*glow*/
