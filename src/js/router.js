@@ -53,7 +53,7 @@ function Router($stateProvider, $urlRouterProvider) {
           controller: 'MainController as main'
         },
         'right': {
-          templateUrl: '/templates/about/aboutLife.html',
+          templateUrl: '/templates/about/aboutlife.html',
           controller: 'MainController as main'
         }
       }
