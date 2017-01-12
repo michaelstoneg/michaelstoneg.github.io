@@ -298,6 +298,30 @@ span {
   animation: blink .6s step-end infinite;
 }
 
+.subHeadings::after {
+  content: "";
+  position: absolute;
+  top: 8%;
+  right: 12%;
+  /* Remove display: inline-block if not required to be on the same line as text etc */
+  display: inline-block;
+  background-color: #ffffff;
+  box-shadow: 0 0 15px #fff, 0 0 35px #FFDD1B, 0 0 40px #FFDD1B, 0 0 50px #FFDD1B, 0 0 75px #FFDD1B;
+  // vertical-align: top;
+  width: 10px;
+  /* Set height to the line height of .text */
+  height: 24px;
+  /*
+  Animation paramaters:
+  blink = animation-name,
+  1s = animation-duration,
+  step-end = animation-timing-function,
+  infinite = animation-iteration-count
+  */
+  -webkit-animation: blink .6s step-end infinite;
+  animation: blink .6s step-end infinite;
+}
+
 @-webkit-keyframes blink {
   0% { opacity: 1.0; }
   50% { opacity: 0.0; }
