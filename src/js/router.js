@@ -119,6 +119,19 @@ function Router($stateProvider, $urlRouterProvider) {
         }
       }
     })
+    .state( 'skillsOther', {
+      url: '/otherskills',
+      views: {
+        'left': {
+          templateUrl: '/templates/skills/skillsType.html',
+          controller: 'MainController as main'
+        },
+        'right': {
+          templateUrl: '/templates/skills/skillsOther.html',
+          controller: 'MainController as main'
+        }
+      }
+    })
     .state( 'experience', {
       url: '/experience',
       views: {
