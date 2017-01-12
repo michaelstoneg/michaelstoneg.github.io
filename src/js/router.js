@@ -14,7 +14,7 @@ function Router($stateProvider, $urlRouterProvider) {
         },
         'stats': {
           // url: '/welcome',
-          templateUrl: '/templates/stats/mainStats.html',
+          templateUrl: '/templates/stats/mainstats.html',
           controller: 'MainController as main'
         }
       }
@@ -32,7 +32,7 @@ function Router($stateProvider, $urlRouterProvider) {
         },
         'stats': {
           // url: '/welcome',
-          templateUrl: '/templates/stats/mainStats.html',
+          templateUrl: '/templates/stats/mainstats.html',
           controller: 'MainController as main'
         }
       }
@@ -81,7 +81,7 @@ function Router($stateProvider, $urlRouterProvider) {
         },
         'stats': {
           // url: '/welcome',
-          templateUrl: '/templates/stats/mainStats.html',
+          templateUrl: '/templates/stats/mainstats.html',
           controller: 'MainController as main'
         }
       }
@@ -99,7 +99,7 @@ function Router($stateProvider, $urlRouterProvider) {
         },
         'stats': {
           // url: '/welcome',
-          templateUrl: '/templates/stats/mainStats.html',
+          templateUrl: '/templates/stats/mainstats.html',
           controller: 'MainController as main'
         }
       }
@@ -189,7 +189,7 @@ function Router($stateProvider, $urlRouterProvider) {
         },
         'stats': {
           // url: '/welcome',
-          templateUrl: '/templates/stats/mainStats.html',
+          templateUrl: '/templates/stats/mainstats.html',
           controller: 'MainController as main'
         }
       }
@@ -309,7 +309,7 @@ function Router($stateProvider, $urlRouterProvider) {
         },
         'stats': {
           // url: '/welcome',
-          templateUrl: '/templates/stats/mainStats.html',
+          templateUrl: '/templates/stats/mainstats.html',
           controller: 'MainController as main'
         }
       }
