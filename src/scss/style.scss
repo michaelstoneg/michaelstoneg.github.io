@@ -425,24 +425,24 @@ span {
   width: 52px;
   height: 39px;
 }
-
-.picPopup {
-  border: 3px solid green;
-  border-radius: 10px;
-  height: 80%;
-  width: 60%;
-  z-index: 5;
-  position: absolute;
-  right: 20%;
-  bottom: .5%;
-}
-
-.projectPics:active {
-  .picPopup {
-    display: none;
-    // background-image: url('../../imgs/project/gof1.png');
-  }
-}
+// 
+// .picPopup {
+//   border: 3px solid green;
+//   border-radius: 10px;
+//   height: 80%;
+//   width: 60%;
+//   z-index: 5;
+//   position: absolute;
+//   right: 20%;
+//   bottom: .5%;
+// }
+//
+// .projectPics:active {
+//   .picPopup {
+//     display: none;
+//     // background-image: url('../../imgs/project/gof1.png');
+//   }
+// }
 
 
 /*glow*/

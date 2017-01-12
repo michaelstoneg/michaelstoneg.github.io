@@ -8,9 +8,7 @@ function MainController($state, $rootScope) {
 
   function secureState(e, toState, toParams) {
     main.stateName = toState.name;
-    main.statLighter = 'true';
     console.log(main.stateName);
-    console.log('stat lighter', main.statLighter);
   }
 
   $rootScope.$on('$stateChangeStart', secureState);
