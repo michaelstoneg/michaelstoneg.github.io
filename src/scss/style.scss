@@ -352,6 +352,21 @@ span {
   }
 }
 
+.projectMobileFrame {
+  border: 3px solid white;
+  -webkit-box-shadow: 0 0 15px #fff, 0 0 35px #228DFF;
+  -moz-box-shadow: 0 0 15px #fff, 0 0 35px #228DFF;
+  box-shadow: 0 0 15px #fff, 0 0 35px #228DFF;
+  border-radius: 10px;
+  height: 130%;
+  width: 55%;
+  margin: 10% 0%;
+  display: inline-block;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
 //external links//
 
 .links {
