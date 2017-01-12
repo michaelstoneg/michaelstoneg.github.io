@@ -2,7 +2,7 @@
 <html ng-app="portfolio">
   <head>
     <meta charset="utf-8">
-    <title>Jnr Web Dev: Michael Stone</title>
+    <title>Jr Web Dev: Michael Stone</title>
     <link rel="shortcut icon" href="../../imgs/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Cardo:400,700" rel="stylesheet">
     <link rel="stylesheet" href="public/css/vendor.css">
@@ -12,16 +12,16 @@
     <!-- <script src="/js/controllers/main.js" charset="utf-8"></script> -->
   </head>
 
-  <body ng-controller="MainController as main" ng-class="main.stateName">
+  <body ng-controller="MainController as main" ng-class="main.stateName" ng-class="main.statLighter">
 
     <div class="frame">
       <header>
-        <!-- <div class="avatar"> -->
-          <a ui-sref="welcome"><div class="avatar"></div></a>
-        <!-- </div> -->
-        <div class="stats" ui-view="stats">
-  
-        </div>
+        <!-- <div class="picPopup"></div> -->
+        <a ui-sref="welcome"><div class="avatar"></div></a>
+          <div class="stats"  ui-view="stats">
+
+          </div>
+
       </header>
       <div class="menu">
         <ul class="mainMenuList">
@@ -33,13 +33,11 @@
         </ul>
       </div>
 
-      <div class="submenu"  ui-view="left">
+      <div class="submenu"  ui-view="left"></div>
 
-      </div>
+      <main class="display" ui-view="right"></main>
 
-      <main class="display" ui-view="right">
 
-      </main>
     </div>
 
   </body>

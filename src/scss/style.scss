@@ -6,10 +6,19 @@ body {
     .display {
       width: 84.5%;
     }
+  }
+  &.true {
+    .stats > li > p {
+      color: green;
+      // -webkit-animation: neon1 3s ease-in-out alternate;
+      // -moz-animation: neon1 3s ease-in-out alternate;
+      // animation: neon1 3s ease-in-out alternate;
+    }
+  }
     // .displayDetails {
     //
     // }
-  }
+  // }
 }
 
 .frame {
@@ -96,6 +105,11 @@ ul {
 }
 
 //stats formatting//
+.statLightBox {
+  height: 100%;
+  width: 82%;
+  display: inline-block;
+}
 
 .stats {
   border: 3px solid #ffffff;
@@ -107,7 +121,6 @@ ul {
   height: 100%;
   width: 82%;
   display: inline-block;
-
 }
 
 .statList {
@@ -413,7 +426,23 @@ span {
   height: 39px;
 }
 
+.picPopup {
+  border: 3px solid green;
+  border-radius: 10px;
+  height: 80%;
+  width: 60%;
+  z-index: 5;
+  position: absolute;
+  right: 20%;
+  bottom: .5%;
+}
 
+.projectPics:active {
+  .picPopup {
+    display: none;
+    // background-image: url('../../imgs/project/gof1.png');
+  }
+}
 
 
 /*glow*/
