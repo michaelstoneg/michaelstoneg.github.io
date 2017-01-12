@@ -12,11 +12,11 @@
     <!-- <script src="/js/controllers/main.js" charset="utf-8"></script> -->
   </head>
 
-  <body ng-controller="MainController as main" ng-class="main.stateName">
+  <body ng-controller="MainController as main" ng-class="main.stateName" ng-class=" main.stateChange">
 
     <div class="frame">
       <header>
-        <!-- <div class="picPopup"></div> -->
+        <div ng-if="main.popupShow == true" class="picPopup"></div>
         <a ui-sref="welcome"><div class="avatar"></div></a>
           <div class="stats"  ui-view="stats">
 

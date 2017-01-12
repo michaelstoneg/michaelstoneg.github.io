@@ -7,19 +7,19 @@ body {
       width: 84.5%;
     }
   }
-  &.true {
-    .stats > li > p {
-      color: green;
-      // -webkit-animation: neon1 3s ease-in-out alternate;
-      // -moz-animation: neon1 3s ease-in-out alternate;
-      // animation: neon1 3s ease-in-out alternate;
-    }
-  }
-    // .displayDetails {
-    //
-    // }
+  // &.true {
+  //   .statList > li > p {
+  //     display: none;
+  //     // -webkit-animation: neon1 3s ease-in-out alternate;
+  //     // -moz-animation: neon1 3s ease-in-out alternate;
+  //     // animation: neon1 3s ease-in-out alternate;
+  //   }
   // }
-}
+    // .displayDetails {
+    //transition
+    // }
+  }
+
 
 .frame {
   height: 500px;
@@ -149,6 +149,8 @@ ul {
 span {
   color: white;
 }
+
+
 
 //main menu formatting//
 
@@ -425,17 +427,18 @@ span {
   width: 52px;
   height: 39px;
 }
-// 
-// .picPopup {
-//   border: 3px solid green;
-//   border-radius: 10px;
-//   height: 80%;
-//   width: 60%;
-//   z-index: 5;
-//   position: absolute;
-//   right: 20%;
-//   bottom: .5%;
-// }
+//
+.picPopup {
+  border: 3px solid green;
+  border-radius: 10px;
+  height: 80%;
+  width: 60%;
+  z-index: 5;
+  position: absolute;
+  right: 20%;
+  bottom: .5%;
+  // background-image: url();
+}
 //
 // .projectPics:active {
 //   .picPopup {
