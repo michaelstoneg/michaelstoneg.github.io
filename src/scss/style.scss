@@ -29,9 +29,9 @@ body {
 
 
 body {
-  // background-image: url("../../imgs/bg/vrscape.png");
+  background-image: url("../../imgs/bg/darkcity.jpg");
   // background-size: cover;
-  // background-position: center;
+  background-position: center;
   background-color: black;
 }
 
@@ -113,7 +113,7 @@ ul {
 
 .stats {
   border: 3px solid #ffffff;
-  background-color: rgba(0, 0, 1a, .85);
+  background-color: rgba(0, 0, 1a, .95);
   -webkit-box-shadow: 0 0 15px #fff, 0 0 35px #FF1177;
   -moz-box-shadow: 0 0 15px #fff, 0 0 35px #FF1177;
   box-shadow: 0 0 15px #fff, 0 0 35px #FF1177;
@@ -156,7 +156,7 @@ span {
 
 .menu {
   border: 3px solid white;
-  background-color: rgba(0, 0, 1a, .85);
+  background-color: rgba(0, 0, 1a, .95);
   -webkit-box-shadow: 0 0 15px #fff, 0 0 35px #FFDD1B;
   -moz-box-shadow: 0 0 15px #fff, 0 0 35px #FFDD1B;
   box-shadow: 0 0 15px #fff, 0 0 35px #FFDD1B;
@@ -201,7 +201,7 @@ span {
 
 .submenu {
   border: 3px solid white;
-  background-color: rgba(0, 0, 1a, .85);
+  background-color: rgba(0, 0, 1a, .95);
   -webkit-box-shadow: 0 0 15px #fff, 0 0 35px #228DFF;
   -moz-box-shadow: 0 0 15px #fff, 0 0 35px #228DFF;
   box-shadow: 0 0 15px #fff, 0 0 35px #228DFF;
@@ -275,7 +275,7 @@ span {
   -moz-box-shadow: 0 0 15px #fff, 0 0 35px #FFFFFF;
   box-shadow: 0 0 15px #fff, 0 0 35px #FFFFFF;
   border-radius: 10px;
-  background-color: rgba(0, 0, 1a, .85);
+  background-color: rgba(0, 0, 1a, .95);
   height: 72%;
   width: 85%;
   position: relative;
@@ -375,7 +375,7 @@ span {
   -moz-box-shadow: 0 0 15px #fff, 0 0 35px #FFFFFF;
   box-shadow: 0 0 15px #fff, 0 0 35px #FFFFFF;
   border-radius: 10px;
-  background-color: rgba(0, 0, 1a, .85);
+  background-color: rgba(0, 0, 1a, .95);
 }
 
 .projectFrame {
