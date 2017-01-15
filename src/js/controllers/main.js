@@ -11,8 +11,8 @@ function MainController($state, $rootScope) {
   function secureState(e, toState, toParams) {
     main.stateName = toState.name;
     console.log(main.stateName);
-    main.stateChange = true;
-    console.log('changing state. light up stats');
+    main.stateChange = 'true';
+    console.log('changing state. light up stats', main.stateChange);
   }
 
   $rootScope.$on('$stateChangeStart', secureState);

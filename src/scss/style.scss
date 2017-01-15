@@ -5,20 +5,20 @@ body {
     }
     .display {
       width: 84.5%;
+      transition: 5s linear;
     }
   }
-  // &.true {
-  //   .statList > li > p {
-  //     display: none;
-  //     // -webkit-animation: neon1 3s ease-in-out alternate;
-  //     // -moz-animation: neon1 3s ease-in-out alternate;
-  //     // animation: neon1 3s ease-in-out alternate;
-  //   }
-  // }
-    // .displayDetails {
-    //transition
-    // }
+}
+.statSwitch {
+  &.true {
+    .statList > li > p {
+      -webkit-animation: neon1 .3s ease-in-out;
+      -moz-animation: neon1 .3s ease-in-out;
+      animation: neon1 .3s ease-in-out;
+      animation-iteration-count: 3;
+    }
   }
+}
 
 
 .frame {
@@ -105,9 +105,10 @@ ul {
 }
 
 //stats formatting//
-.statLightBox {
+
+.statSwitch {
   height: 100%;
-  width: 82%;
+  width: 80%;
   display: inline-block;
 }
 
@@ -119,7 +120,7 @@ ul {
   box-shadow: 0 0 15px #fff, 0 0 35px #FF1177;
   border-radius: 10px;
   height: 100%;
-  width: 82%;
+  width: 101%;
   display: inline-block;
 }
 
@@ -446,6 +447,23 @@ span {
 //     // background-image: url('../../imgs/project/gof1.png');
 //   }
 // }
+
+
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+   {
+
+    body {
+      background-image: url('../../imgs/bg/redcity.jpg');
+    }
+}
+
+
+
+
 
 
 /*glow*/
