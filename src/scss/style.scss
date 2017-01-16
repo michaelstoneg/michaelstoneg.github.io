@@ -440,18 +440,23 @@ h2, h3, .experienceHeading {
           }
           .statSwitch {
               width: 95%;
-              height: 102%;
+              height: 153%;
             .stats {
               float: left;
               width: 100%;
               height: 100%;
               .statList {
+                margin: 0%;
+                padding: 2% 5%;
                 li {
                   padding: 0%;
-                  margin: 5% 0%;
+                  margin: 0%;
                 }
                 p {
                   margin: 0%;
+                }
+                .statButton {
+                  font-size: 6px;
                 }
               }
             }
@@ -466,6 +471,10 @@ h2, h3, .experienceHeading {
           width: 90%;
           .displayHeading {
             margin-top: 4%;
+            font-size: 15px;
+          }
+          .skillList {
+            padding: 0%;
           }
           .displayDetails {
             height: 73%;
@@ -483,9 +492,9 @@ h2, h3, .experienceHeading {
         }
         .menu {
           position: absolute;
-          bottom: 2%;
+          bottom: -3%;
           left: 5%;
-          height: 30%;
+          height: 35%;
           width: 20%;
           padding-left: -1%;
           .mainMenuList > li {
