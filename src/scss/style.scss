@@ -414,7 +414,7 @@ h2, h3, .experienceHeading {
 @media only screen
   and (min-device-width: 320px)
   and (max-device-width: 540px)
-  and (-webkit-min-device-pixel-ratio: 2)
+  
    {
     body {
       p {
@@ -447,7 +447,7 @@ h2, h3, .experienceHeading {
               .statList {
                 li {
                   padding: 0%;
-                  margin: 6% 0%;
+                  margin: 5% 0%;
                 }
                 p {
                   margin: 0%;
