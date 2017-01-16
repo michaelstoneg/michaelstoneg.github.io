@@ -487,6 +487,52 @@ h2, h3, .experienceHeading {
               height: 70%;
               width: 73%;
             }
+            .welcomQuote::after {
+              content: "";
+              position: absolute;
+              top: 7.5%;
+              right: 14%;
+              /* Remove display: inline-block if not required to be on the same line as text etc */
+              display: inline-block;
+              background-color: #ffffff;
+              box-shadow: 0 0 15px #fff, 0 0 35px #FFDD1B, 0 0 40px #FFDD1B, 0 0 50px #FFDD1B, 0 0 75px #FFDD1B;
+              // vertical-align: top;
+              width: 7px;
+              /* Set height to the line height of .text */
+              height: 15px;
+              /*
+              Animation paramaters:
+              blink = animation-name,
+              1s = animation-duration,
+              step-end = animation-timing-function,
+              infinite = animation-iteration-count
+              */
+              -webkit-animation: blink .6s step-end infinite;
+              animation: blink .6s step-end infinite;
+            }
+            .subHeadings::after {
+              content: "";
+              position: absolute;
+              top: 4%;
+              right: 12%;
+              /* Remove display: inline-block if not required to be on the same line as text etc */
+              display: inline-block;
+              background-color: #ffffff;
+              box-shadow: 0 0 15px #fff, 0 0 35px #fff, 0 0 40px #fff, 0 0 75px #FFDD1B;
+              // vertical-align: top;
+              width: 7px;
+              /* Set height to the line height of .text */
+              height: 15px;
+              /*
+              Animation paramaters:
+              blink = animation-name,
+              1s = animation-duration,
+              step-end = animation-timing-function,
+              infinite = animation-iteration-count
+              */
+              -webkit-animation: blink .6s step-end infinite;
+              animation: blink .6s step-end infinite;
+            }
           }
         }
         .menu {
