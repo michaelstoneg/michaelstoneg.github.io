@@ -421,7 +421,7 @@ h2, h3, .experienceHeading {
         font-size: 25px;
       }
       // background-color: black;
-      background-image: url('../../imgs/bg/bluecity2.jpg');
+      background-image: url('../../imgs/bg/darkcity.jpg');
       background-size: cover;
       .frame {
         height: 90vh;
@@ -430,33 +430,28 @@ h2, h3, .experienceHeading {
         margin: 6% 6%;
         header {
           position: absolute;
-          bottom: 2%;
+          bottom: 2.2%;
           right: 1%;
           height: 10%;
           width: 70%;
           .avatar {
             display: none;
-            // position: absolute;
-            // right:1%;
-            // bottom: 2%;
-            // width: 40%;
-            // height: 100%;
-            // z-index: -1;
           }
           .statSwitch {
               width: 95%;
-              height: 100%;
+              height: 102%;
             .stats {
               float: left;
               width: 100%;
               height: 100%;
-              .statList >  li {
-                columns: 2;
-                padding: 0%;
-                margin: 8% 0%;
-              }
-              .statList > li > p {
-                margin: 0%;
+              .statList {
+                li {
+                  padding: 0%;
+                  margin: 6% 0%;
+                }
+                p {
+                  margin: 0%;
+                }
               }
             }
           }
@@ -466,19 +461,22 @@ h2, h3, .experienceHeading {
           top: 2%;
           left: 5%;
           display: inline-block;
-          height: 60%;
+          height: 63%;
           width: 90%;
           .displayHeading {
             margin-top: 4%;
           }
           .displayDetails {
-            height: 68%;
+            height: 73%;
+            .links {
+              font-size: 30px;
+            }
             .projectFrame {
               height: 100%;
             }
             .projectMobileFrame {
-              height: 95%;
-              width: 70%;
+              height: 70%;
+              width: 73%;
             }
           }
         }
