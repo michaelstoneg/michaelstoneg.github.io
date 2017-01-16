@@ -411,7 +411,7 @@ h2, h3, .experienceHeading {
 //*mobile site*//
 
 
-@media only screen 
+@media only screen
   and (min-device-width: 320px)
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
@@ -419,7 +419,7 @@ h2, h3, .experienceHeading {
    {
     body {
       p {
-        font-size: 25px;
+        font-size: 10px;
       }
       // background-color: black;
       background-image: url('../../imgs/bg/darkcity.jpg');
@@ -470,7 +470,7 @@ h2, h3, .experienceHeading {
           .displayDetails {
             height: 73%;
             .links {
-              font-size: 30px;
+              font-size: 10px;
             }
             .projectFrame {
               height: 100%;
@@ -490,7 +490,7 @@ h2, h3, .experienceHeading {
           padding-left: -1%;
           .mainMenuList > li {
             margin-left: 0%;
-            font-size: 25px;
+            font-size: 10px;
           }
         }
         .submenu {
@@ -507,7 +507,7 @@ h2, h3, .experienceHeading {
               padding: 8%;
             }
             .subMenuButton {
-              font-size: 30px;
+              font-size: 10px;
               padding: 0%;
             }
           }
