@@ -1,3 +1,7 @@
+.avatarAlt {
+  display: none;
+}
+
 body {
   background-image: url("../../imgs/bg/darkcity.jpg");
   // background-size: cover;
@@ -417,35 +421,42 @@ h2, h3, .experienceHeading {
         font-size: 23px;
       }
       // background-color: black;
-      background-image: url('../../imgs/bg/redcity.jpg');
+      background-image: url('../../imgs/bg/bluecity2.jpg');
+      background-size: cover;
       .frame {
         height: 90vh;
         width: 86vw;
-        border: 3px dotted black;
+        // border: 3px dotted black;
         margin: 6% 6%;
         header {
           position: absolute;
           bottom: 2%;
           right: 1%;
-          height: 15%;
+          height: 10%;
           width: 70%;
           .avatar {
-            position: absolute;
-            right:1%;
-            bottom: 1%;
-            width: 40%;
-            height: 150%;
+            display: none;
+            // position: absolute;
+            // right:1%;
+            // bottom: 2%;
+            // width: 40%;
+            // height: 100%;
+            // z-index: -1;
           }
           .statSwitch {
-              width: 70%;
+              width: 95%;
               height: 100%;
             .stats {
               float: left;
               width: 100%;
               height: 100%;
               .statList >  li {
-                // columns: 2;
+                columns: 2;
                 padding: 0%;
+                margin: 8% 0%;
+              }
+              .statList > li > p {
+                margin: 0%;
               }
             }
           }
@@ -485,14 +496,17 @@ h2, h3, .experienceHeading {
         }
         .submenu {
           position: absolute;
-          right: 1%;
-          bottom: 21%;
-          height: 11%;
-          width: 70%;
-          padding: 0%;
+          left: 29%;
+          bottom: 17%;
+          height: 15%;
+          width: 35%;
+          padding: 4% 8%;
           .menuList {
-            columns: 2;
-            padding: 0%;
+            // columns: 2;
+            padding: 4%;
+            li {
+              padding: 4%;
+            }
             .subMenuButton {
               font-size: 30px;
               padding: 0%;
