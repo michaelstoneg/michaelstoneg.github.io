@@ -409,10 +409,13 @@ h2, h3, .experienceHeading {
 
 @media only screen
   and (min-device-width: 320px)
-  and (max-device-width: 480px)
+  and (max-device-width: 540px)
   and (-webkit-min-device-pixel-ratio: 2)
    {
     body {
+      p {
+        font-size: 20px;
+      }
       // background-color: black;
       background-image: url('../../imgs/bg/redcity.jpg');
       .frame {
@@ -434,9 +437,12 @@ h2, h3, .experienceHeading {
             height: 150%;
             z-index: 1;
           }
-          .stats {
+          .stats {;
             float: left;
             width: 50%;
+            .statList >  li {
+              // columns: 2;
+            }
           }
         }
         .display {
@@ -459,8 +465,10 @@ h2, h3, .experienceHeading {
           left: 5%;
           height: 30%;
           width: 20%;
-          .mainMenuList {
-
+          padding-left: -1%;
+          .mainMenuList > li {
+            margin-left: 0%;
+            font-size: 25px;
           }
         }
         .submenu {
@@ -469,8 +477,14 @@ h2, h3, .experienceHeading {
           bottom: 21%;
           height: 11%;
           width: 70%;
+          padding: 0%;
           .menuList {
             columns: 2;
+            padding: 0%;
+            .subMenuButton {
+              font-size: 30px;
+              padding: 0%;
+            }
           }
         }
       }
