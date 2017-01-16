@@ -513,7 +513,7 @@ h2, h3, .experienceHeading {
             .subHeadings::after {
               content: "";
               position: absolute;
-              top: 4%;
+              top: 4.5%;
               right: 12%;
               /* Remove display: inline-block if not required to be on the same line as text etc */
               display: inline-block;
